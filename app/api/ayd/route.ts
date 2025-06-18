@@ -14,8 +14,8 @@ export async function POST(req: NextRequest) {
     },
     body: JSON.stringify({
       "chatbotid": process.env.AYD_CHATBOT_ID,
-      "name": "Sheldon",
-      "email": "test@gmail.com"
+      "name": "NK",
+      "email": "nk@imtssolutions.com"
     }),
   }).then((res) => res.json());
 

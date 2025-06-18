@@ -14,8 +14,8 @@ export async function POST(req: NextRequest) {
     },
     body: JSON.stringify({
       "widgetId": process.env.AYD_WIDGET_ID,
-      "name": "Sheldon",
-      "email": "test@gmail.com"
+      "name": "NK",
+      "email": "nk@imtssolutions.com"
     }),
   }).then((res) => res.json());
 
